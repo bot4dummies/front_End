@@ -1,0 +1,55 @@
+:host{
+    position: fixed;
+    
+}
+.contenedor{
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    min-height: 66px;
+    background: rgba(255, 255, 255, 0.8)
+}
+.contenedor ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    
+}
+.contenedor ul a{
+    text-decoration: none;
+}
+.contenedor ul li .links{
+    flex-grow: 1;
+}
+.contenedor  ul .logo img {
+    max-height: 50px;
+    flex-grow: 2;
+    
+}
+.contenedor ul li {
+    color: #32384f;
+    font-weight: 50;
+    display: block;
+}
+.contenedor ul li a {
+    text-decoration: none;
+    color:inherit;
+    font-family:'Circular Std Book';
+}
+.contenedor ul .sign-up{
+    border: 1px solid rgba(50,56,79,.15);
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 1s ease;
+    margin: 0px;
+    background-color: #fff;
+    color: #32384f;
+}
+.contenedor ul .sign-up:hover{
+    background-color: #4745fb;
+    border-color: #4745fb;
+    color: #fff;
+}
