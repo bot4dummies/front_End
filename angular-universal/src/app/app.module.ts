@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import {TransferHttpCacheModule} from '@nguniversal/common';
@@ -21,6 +22,8 @@ import {routes} from './routes';
     BrowserModule.withServerTransition({appId: 'my-app'}),
     RouterModule.forRoot(routes),
     TransferHttpCacheModule,
+    NgbModule.forRoot(),
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
