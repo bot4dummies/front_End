@@ -1,0 +1,52 @@
+main{
+    margin-top: 10vh;
+}
+#main-header{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    height: 95vh;
+    /*background:#232323;*/
+    
+    
+}
+#main-header .titulo{
+    text-align: center;
+    color: #32384f;
+    margin-left: 33.33333%;
+    margin-right: 33.33333%;
+    margin-bottom: 30px;
+}
+#main-header .buttonrouter{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#main-header .buttonrouter button{
+    border: 2px solid #8DCC2D;
+    border-radius: 50px;
+    padding: 8px 28px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    outline:none;
+}
+#main-header .buttonrouter button:active, #main-header .buttonrouter button:focus{
+    outline:none;
+}
+#main-header .buttonrouter button:hover{
+    background: #8DCC2D;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#main-header .subtitulo{
+    text-align: center;
+    color:#cdcdcd;
+    margin-left: 33.33333%;
+    margin-right: 33.33333%;
+}
+/*  ================================
+    howWeWork
+    ================================ */
+#howWeWork{
+    background: #32384f;
+    height: 90vh;
+}

@@ -1,3 +1,10 @@
 *{
     width: 100%;
 }
+menu-component{
+    position: fixed;
+    
+}
+router-outlet {
+    margin-top: 10vh;
+}
