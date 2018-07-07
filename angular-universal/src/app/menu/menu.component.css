@@ -1,7 +1,8 @@
 header{
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.9);
     z-index: 100;
     margin-bottom: 5vh;
+    z-index: 100;
 }
 .contenedores img {
     max-height: 40px;

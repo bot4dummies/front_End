@@ -3,7 +3,7 @@
 }
 menu-component{
     position: fixed;
-    
+    z-index: 1000;
 }
 router-outlet {
     margin-top: 10vh;
