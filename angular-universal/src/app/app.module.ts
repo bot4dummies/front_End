@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { LoginComponent } from './login/login.component';
-
+import { FooterComponent } from './footer/footer.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -16,12 +16,14 @@ import {TransferHttpCacheModule} from '@nguniversal/common';
 import {routes} from './routes';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MenuComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),

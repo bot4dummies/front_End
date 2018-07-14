@@ -143,29 +143,21 @@ PRICING PLANS STYLES
     min-height: 100vh;
     background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
     padding: 5% 10%;
+    
 }
 
 #pricingPlans h1 {
   color: #fff;
   font-size: 3.3em;
   text-align: center;
-  padding-bottom: 2%;
+  
 }
 
 
 
-@media (min-width: 900px) {
-  #pricingPlans .background {
-      padding: 0 0 25px;
-    }
-  }
+
   
-  #pricingPlans .container {
-    margin: 0 auto;
-    padding: 50px 0 0;
-    max-width: 960px;
-    width: 100%;
-  }
+
   
   #pricingPlans .panel {
     background-color: #fff;
